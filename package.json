@@ -1,0 +1,14 @@
+{
+  "name": "ender-first",
+  "version": "0.1.0",
+  "main": "main.js",
+  "devDependencies": {
+    "asar": "^0.13.0",
+    "electron": "^1.7.9",
+    "getmac": "^1.2.1"
+  },
+  "scripts": {
+    "start": "electron .",
+    "packager": "electron-packager ./ enderfirst --platform=win32 --arch=x64 --out ../ --overwrite --ignore=node_modules --icon=./app/img/icon/jewel.ico"
+  }
+}
